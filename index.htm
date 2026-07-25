@@ -145,8 +145,10 @@ function processarCheckinBackend(idScaneado) {
   mensagem.innerHTML = '<div class="loading"></div> Conectando ao sistema...';
   detalhes.classList.add('hidden');
   
-  // URL mantida conforme o seu código anterior
-  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxS4ODjZtSDtoQ8AWS7IfFr8aJSbHvy7vvt-brJ91aKhHdTS9xjlanMZIt6iPAqMRrIjw/exec";
+  // ========================================================
+  // SEU NOVO LINK DO WEB APP ESTÁ AQUI
+  // ========================================================
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyP2E1ofXuT3H0fFeE57FNE10On08CTracZ8TnNizfZ-8CX0rIJqU42cW2JoeJAuMlf/exec";
   
   const endpoint = WEB_APP_URL + "?action=realizarCheckin&protocolo=" + encodeURIComponent(idScaneado);
   
